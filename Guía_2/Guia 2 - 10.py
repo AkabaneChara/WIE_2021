@@ -1,3 +1,7 @@
+#Represente mediante una expresión booleana en Python un O lógico exclusivo (xor). Este se
+#caracteriza porque solo es verdad cuando solamente una de las dos proposiciones es
+#verdadera.
+
 def comprobation(proposition):
     if proposition == 'F' or proposition == 'V':
         return True
