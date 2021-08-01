@@ -1,3 +1,10 @@
+#Escriba un programa que reciba una temperatura con el siguiente formato: 34F
+#Donde primero se encuentra número de grados y luego el posfijo que indica la escala que se
+#maneja, puede ser F: Fahrenheit, C: Celsius o K: kelvin.
+#Posterior a eso el programa debe esperar una de las tres iniciales (C, K, F) que indique en
+#qué escala espera la salida. Por último, realice la conversión de temperaturas desde la
+#cantidad dada hasta la escala esperada.
+
 entry = input("Ingrese La Temperatura A Cambiar : ")
 change = input("Ingrese La Escala de Cambio : ")
 
