@@ -1,3 +1,5 @@
+#Escriba un programa que determine si un entero ingresado por consola es primo o no.
+
 def es_primo(num):
     for x in range(2, num):
         if num%x == 0:
