@@ -1,3 +1,9 @@
+#Una aplicación web requiere un servicio para completar el inicio de sesión. Diseñe un
+#algoritmo que reciba como entrada un correo y una contraseña. Del correo debe comprobar
+#que tenga exactamente una arroba y que no empiece ni termine por punto pero que tenga al
+#menos uno. Por parte de la contraseña, usted debe revisar que tenga una longitud mínima de
+#8 caracteres y que tenga al menos una minúscula, una mayúscula y un número.
+
 # Comprobación de Correo
 def comprobation_mail(mail):
     if mail[0] == '.' or mail[-1] == '.':
