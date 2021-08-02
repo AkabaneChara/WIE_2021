@@ -1,4 +1,5 @@
-
+#Dada una lista de claves y una lista de valores, conviértalos a un diccionario como se muestra
+#en el ejemplo.
 
 keys = input("Inserte Las Llaves Del Diccionario : ")
 values = input("Inserte Los Valores Correspondientes A Cada Llave : ")
